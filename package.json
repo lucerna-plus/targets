@@ -1,7 +1,7 @@
 {
   "name": "@lucerna-plus/targets",
   "scripts": {
-    "start": "webpack serve",
+    "start": "webpack serve --port 8084",
     "start:8084": "webpack serve --port 8084",
     "start:8088": "webpack serve --port 8088",
     "start:standalone": "webpack serve --env standalone",
